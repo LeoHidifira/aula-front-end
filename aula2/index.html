@@ -1,19 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula19 Front-end</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <title>Demo Bootstrap</title>
 </head>
-<body>
 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <a class="navbar-brand" href="#">DemoBootStrap</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -27,15 +29,13 @@
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
-                            Dropdown
+                            Livros
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            <li><a class="dropdown-item" href="#">Programação</a></li>
+                            <li><a class="dropdown-item" href="#">Machine Learning</a></li>
+                            <!-- <li><hr class="dropdown-divider"></li> -->
+                            <li><a class="dropdown-item" href="#">Matemática</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
@@ -51,31 +51,35 @@
     </nav>
 
     <div class="container my-5 text-center">
-        <h1>Bootstrap na prática</h1>
-        <p>Componentes prontos + classes utilitárias</p>
+        <!-- display-5 => estilização de titulo + tamanho (5) -->
+        <h1 class="display-5 fw-bold">Bootstrap na prática</h1>
+
+        <!-- lead => Estilização de texto -->
+        <p class="lead">Componentes prontos + classes utilitárias</p>
     </div>
 
     <section class="mb-5">
+        <!-- row => representa o flex, deixa os itens lado a lado -->
         <div class="row">
+            <!-- col 4 => ocupará 4/12, ou seja 1/3 do espaço disponível na tela -->
             <div class="col-md-4">
-                <div class="bg-primary texte-white rounded text-center p-3">col-md-4</div>
+                <div class="bg-primary text-white rounded text-center p-3">col-md-4</div>
             </div>
 
             <div class="col-md-4">
-                <div class="bg-primary texte-white rounded text-center p-3">col-md-4</div>
+                <div class="bg-primary text-white rounded text-center p-3">col-md-4</div>
             </div>
 
             <div class="col-md-4">
-                <div class="bg-primary texte-white rounded text-center p-3">col-md-4</div>
+                <div class="bg-primary text-white rounded text-center p-3">col-md-4</div>
             </div>
-        
         </div>
     </section>
-    
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
 </body>
+
 </html>
