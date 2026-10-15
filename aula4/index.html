@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Italianinho | Restaurante Italiano</title>
+    <meta name="description"
+        content="Italianinho: restaurante italiano com tradição, pratos autênticos e ambiente acolhedor em São Paulo." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar container" aria-label="Navegação principal">
+            <a href="#inicio" class="logo" aria-label="Italianinho home">Italianinho</a>
+            <div class="nav-links">
+                <a href="#inicio">Início</a>
+                <a href="#unidades">Unidades</a>
+                <a href="#cardapio">Cardápio</a>
+                <a href="#sobre">Sobre</a>
+                <a href="#contato">Contato</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio" class="hero">
+            <div class="container hero-content">
+                <div class="hero-text">
+                    <span class="eyebrow">Desde 1998</span>
+                    <h1>Comida italiana de verdade, servida com carinho.</h1>
+                    <p>
+                        No Italianinho, a cozinha é feita para reunir gente boa, mesa cheia e momentos
+                        simples que ficam na memória. Massa fresca, molho feito na hora e um atendimento
+                        que parece de família.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="#cardapio" class="btn btn-primary">Ver cardápio</a>
+                        <a href="#contato" class="btn btn-secondary">Reservar mesa</a>
+                    </div>
+                </div>
+
+                <div class="hero-visual" aria-label="Representação visual da culinária italiana">
+                    <!-- COLOCAR IMAGEM DA HERO AQUI: substituir o bloco colorido por <img src="caminho-da-imagem" alt="..."> -->
+                    <div class="dish-card dish-main">
+                        <span class="dish-tag">Especial da casa</span>
+                        <img src="./assets/img1.jpg" alt="lasanha">
+                        <h3>Lasanha ao molho</h3>
+                    </div>
+                    <div class="dish-card dish-side">
+                        <img src="./assets/img2.jpg" alt="massa artesanal">
+                        <h3>Massas artesanais</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="unidades" class="section section-light">
+            <div class="container">
+                <div class="section-heading">
+                    <span class="eyebrow eyebrow-dark">Unidades</span>
+                    <h2>Uma mesa em cada esquina da cidade</h2>
+                </div>
+
+                <div class="cards-grid units-grid">
+                    <article class="unit-card">
+                        <div class="pin-badge">Centro</div>
+                        <h3>Unidade Centro</h3>
+                        <p>Av. Paulista, 1500</p>
+                        <p>São Paulo - SP</p>
+                    </article>
+
+                    <article class="unit-card">
+                        <div class="pin-badge">Vila Nova</div>
+                        <h3>Unidade Vila Nova</h3>
+                        <p>Rua das Flores, 245</p>
+                        <p>Campinas - SP</p>
+                    </article>
+
+                    <article class="unit-card">
+                        <div class="pin-badge">Paulista</div>
+                        <h3>Unidade Paulista</h3>
+                        <p>Alameda Santos, 890</p>
+                        <p>São Paulo - SP</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="cardapio" class="section section-dark">
+            <div class="container">
+                <div class="section-heading">
+                    <span class="eyebrow">Cardápio</span>
+                    <h2>Os favoritos da casa</h2>
+                </div>
+
+                <div class="cards-grid menu-grid">
+                    <article class="menu-card">
+                        <!-- COLOCAR IMAGEM DO PRATO 1 AQUI: substituir o bloco colorido por <img src="..." alt="..."> -->
+                        <img src="./assets/img2.jpg" alt="Rigatoni ao Pomodoro">    
+                        <div class="menu-content">
+                            <h3>Rigatoni ao Pomodoro</h3>
+                            <p>
+                                Massa artesanal com molho de tomate fresco, manjericão e queijo parmesão.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="menu-card">
+                        <!-- COLOCAR IMAGEM DO PRATO 2 AQUI -->
+                        <img src="./assets/img4.jpg" alt="Gnocchi à Bolonhesa">
+                        <div class="menu-content">
+                            <h3>Gnocchi à Bolonhesa</h3>
+                            <p>
+                                Gnocchi macio, molho caseiro e sabor intenso que agrada a qualquer mesa.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="menu-card">
+                        <!-- COLOCAR IMAGEM DO PRATO 3 AQUI -->
+                        <img src="./assets/img5.jpg" alt="Risotto ai Funghi">
+                        <div class="menu-content">
+                            <h3>Risotto ai Funghi</h3>
+                            <p>
+                                Cremoso, aromático e perfumado com cogumelos, manteiga e ervas frescas.
+                            </p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="sobre" class="section section-about">
+            <div class="container about-layout">
+                <!-- COLOCAR IMAGEM DO RESTAURANTE AQUI: trocar o bloco colorido por <img src="..." alt="..."> -->
+                <img src="./assets/img3.jpg" alt="Interior do restaurante" class="about-image">
+
+                <div class="about-content">
+                    <span class="eyebrow eyebrow-dark">Sobre nós</span>
+                    <h2>Tradição italiana, com a casa ao seu lado.</h2>
+                    <p>
+                        O Italianinho nasceu para levar a essência da cozinha italiana para a mesa dos
+                        brasileiros, com receitas tradicionais, ingredientes selecionados e um ambiente
+                        acolhedor que convida à conversa e ao cuidado.
+                    </p>
+                    <p>
+                        Cada prato é preparado com atenção, do molho ao atendimento, para transformar uma
+                        simples refeição em um momento gostoso, fácil e memorável.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contato" class="footer">
+        <div class="container footer-content">
+            <div>
+                <a href="#inicio" class="logo logo-footer">Italianinho</a>
+                <p>Autêntica cozinha italiana em um ambiente acolhedor.</p>
+            </div>
+
+            <div class="contact-block">
+                <h3>Contato</h3>
+                <ul>
+                    <li>Endereço: Rua da Tradição, 120, Centro, São Paulo - SP</li>
+                    <li>Telefone: (11) 3333-4567</li>
+                    <li>E-mail: contato@italianinho.com.br</li>
+                    <li>WhatsApp: (11) 99999-4567</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
